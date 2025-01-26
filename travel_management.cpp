@@ -325,7 +325,7 @@ public:
             cout << "\nPress another key to back or \nEnter package number you want to book : ";
             cin >> packChoice;
 
-            if (packChoice = 1)
+            if (packChoice == 1)
             {
                 hotelCost = 5000.00;
                 cout << "\nYou have successfully booked Standard Pack at Elephenta" << endl;
